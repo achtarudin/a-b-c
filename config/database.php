@@ -63,7 +63,7 @@ return [
             'password' => env('DB_PASSWORD', '8ce5054b07e831b3e7f4bf72d9660700a92e8b235039420f6e08253b775b59d2'),
             'charset' => 'utf8',
             'prefix' => '',
-            'schema' => 'homestead',
+            'schema' => 'public',
             'sslmode' => 'prefer',
         ],
 
