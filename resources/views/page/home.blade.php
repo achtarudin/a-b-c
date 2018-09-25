@@ -1,6 +1,6 @@
 @extends('layout.app')
 @section('content')
-    <div class="container">
+    <div id="app" class="container">
       <div class="bg">
         oke
         <button class="btn btn-primary btn-small">test</button>
