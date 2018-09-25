@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>Achtarudin-Port</title>
-    {!! Html::style('css/app.css') !!}
+    <link rel="stylesheet" href="{!! secure_asset('css/app.css')!!}">
     <style>
     body{
         background-color: #fff; 
@@ -20,6 +20,6 @@
 </head>
 <body>  
     @yield('content')
-    {!! Html::script('js/app.js') !!}
+    <script src="{{ secure_asset('js/app.js') }}"></script>
 </body>
 </html>
